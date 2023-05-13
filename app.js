@@ -5,6 +5,6 @@ async function example() {
     apiKey: process.env.OPENAI_API_KEY
   })
 
-  const res = await api.sendMessage('Hello World!')
+  const res = await api.sendMessage('Hello World 2!')
   console.log(res.text)
 }
